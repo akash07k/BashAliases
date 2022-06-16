@@ -1,7 +1,7 @@
 # Git Command Aliases
 
 # git clean
-alias gclean="git reset && git clean -dfx"
+alias gclean="git reset --hard && git clean -dfx"
 
 # git test push
 alias gtp="git add --all && git commit -m \"Test commit\" && git push"
@@ -26,6 +26,9 @@ alias gcm="git commit -m"
 
 # git add all and commit with custom message
 alias gcam="git add --all && git commit -m"
+
+# git status
+alias gs="git status"
 
 
 
