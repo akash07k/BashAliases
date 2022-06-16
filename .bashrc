@@ -14,5 +14,7 @@ alias gaa="git add --all"
 
 # git reset
 alias gr="git reset --hard"
+alias gp="git push"
+alias gcm="git commit -m"
 
 
