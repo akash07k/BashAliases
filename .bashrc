@@ -3,6 +3,8 @@
 # git clean
 alias gclean="git reset --hard && git clean -dfx"
 
+# git reset hard
+alias gr="git reset --hard"
 # git test push
 alias gtp="git add --all && git commit -m \"Test commit\" && git push"
 
@@ -30,5 +32,8 @@ alias gcam="git add --all && git commit -m"
 # git status
 alias gs="git status"
 
+# Utility aliases
 
+# Check temperature
+alias temp="vcgencmd measure_temp"
 
