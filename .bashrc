@@ -39,3 +39,8 @@ alias temp="vcgencmd measure_temp"
 
 # Shutdown
 alias off="sudo shutdown -h now"
+
+# update
+alias update="sudo apt update"
+alias upgrade="sudo apt update && sudo apt upgrade -y"
+alias clean="sudo apt clean autoclean autoremove"
