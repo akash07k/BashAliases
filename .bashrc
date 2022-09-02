@@ -37,3 +37,5 @@ alias gs="git status"
 # Check temperature
 alias temp="vcgencmd measure_temp"
 
+# Shutdown
+alias off="sudo shutdown -h now"
