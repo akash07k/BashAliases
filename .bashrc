@@ -44,3 +44,12 @@ alias off="sudo shutdown -h now"
 alias update="sudo apt update"
 alias upgrade="sudo apt update && sudo apt upgrade -y"
 alias clean="sudo apt clean autoclean autoremove"
+
+# Tmux
+alias t0="tmux new -s 0"
+alias t1="tmux new -s 1"
+alias t2="tmux new -s 2"
+alias ta0="tmux attach-session -t 0"
+alias ta1="tmux attach-session -t 1"
+alias ta2="tmux attach-session -t 2"
+
