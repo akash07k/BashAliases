@@ -53,3 +53,6 @@ alias ta0="tmux attach-session -t 0"
 alias ta1="tmux attach-session -t 1"
 alias ta2="tmux attach-session -t 2"
 
+# Rom building
+alias builde="wget https://github.com/akash07k/scripts/raw/master/build-rom.sh && . ./build-rom.sh -l evolution_munch-userdebug -m evolution"
+alias buildes="wget https://github.com/akash07k/scripts/raw/master/build-rom.sh && . ./build-rom.sh -l evolution_munch-userdebug -m evolution -s"
